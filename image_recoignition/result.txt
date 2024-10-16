@@ -1,0 +1,25 @@
+2024-10-14 21:54:30.330408: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.       
+2024-10-14 21:54:30.341066: I tensorflow/core/common_runtime/process_util.cc:146] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+Epoch 1/10
+1563/1563 [==============================] - 75s 48ms/step - loss: 1.5284 - accuracy: 0.4474 - val_loss: 1.2460 - val_accuracy: 0.5621
+Epoch 2/10
+1563/1563 [==============================] - 71s 45ms/step - loss: 1.1623 - accuracy: 0.5874 - val_loss: 1.0805 - val_accuracy: 0.6190
+Epoch 3/10
+1563/1563 [==============================] - 66s 42ms/step - loss: 1.0124 - accuracy: 0.6462 - val_loss: 0.9927 - val_accuracy: 0.6526
+Epoch 4/10
+1563/1563 [==============================] - 70s 45ms/step - loss: 0.9061 - accuracy: 0.6824 - val_loss: 0.9497 - val_accuracy: 0.6699
+Epoch 5/10
+1563/1563 [==============================] - 68s 44ms/step - loss: 0.8346 - accuracy: 0.7087 - val_loss: 0.9128 - val_accuracy: 0.6787
+Epoch 6/10
+1563/1563 [==============================] - 68s 44ms/step - loss: 0.7759 - accuracy: 0.7277 - val_loss: 0.8991 - val_accuracy: 0.6875
+Epoch 7/10
+1563/1563 [==============================] - 70s 45ms/step - loss: 0.7260 - accuracy: 0.7452 - val_loss: 0.8783 - val_accuracy: 0.6999
+Epoch 8/10
+1563/1563 [==============================] - 68s 44ms/step - loss: 0.6782 - accuracy: 0.7595 - val_loss: 0.8919 - val_accuracy: 0.6971
+Epoch 9/10
+1563/1563 [==============================] - 70s 45ms/step - loss: 0.6442 - accuracy: 0.7733 - val_loss: 0.8577 - val_accuracy: 0.7120
+Epoch 10/10
+1563/1563 [==============================] - 70s 45ms/step - loss: 0.6087 - accuracy: 0.7849 - val_loss: 0.9040 - val_accuracy: 0.6978
+313/313 - 1s - loss: 0.9040 - accuracy: 0.6978 - 1s/epoch - 4ms/step
+Test accuracy: 0.6977999806404114
